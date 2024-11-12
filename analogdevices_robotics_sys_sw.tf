@@ -5,7 +5,9 @@ locals {
     "SagarWalishetti",
     "Prasanna-Bhat",
   ]
-  analogdevicesinc_robotics_sys_sw_repositories = []
+  analogdevicesinc_robotics_sys_sw_repositories = [
+    "adi_3dtof_image_stitching-release",
+  ]
 }
 
 module "analogdevicesinc_robotics_sys_sw_team" {
